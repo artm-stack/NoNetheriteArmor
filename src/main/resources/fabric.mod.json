@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "no_netherite_armor",
+  "version": "${version}",
+  "name": "No Netherite Armor",
+  "description": "Disables only Netherite armor smithing recipes.",
+  "authors": [
+    "ArtM_"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.artm_.nonetheritearmor.NoNetheriteArmorMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": ">=26.1.1",
+    "java": ">=25"
+  }
+}
